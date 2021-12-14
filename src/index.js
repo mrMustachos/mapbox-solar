@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'normalize.css';
+
+import Map from './Map';
+import Typography from './styles/Typography';
+import GlobalStyles from './styles/GlobalStyles';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Typography />
+    <GlobalStyles />
+    <Map />
   </React.StrictMode>,
   document.getElementById('root')
 );
