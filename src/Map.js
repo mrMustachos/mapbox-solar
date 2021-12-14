@@ -72,6 +72,7 @@ const Map = () => {
   useEffect(() => {
     if (inputSunlightValue?.value) {
       const totalPanels = Math.floor(area / (inputPanelValue * panelSize.current.panelHeight));
+      // Using the formula from here to get a general idea on usage : shorturl.at/xyGK7
       const dailyKilowattHoursPerPanel = (inputWattageValue * (inputSunlightValue.value / 60) * (inputLocationEfficiencyValue / 100)) / 1000;
       const totalOutput = (dailyKilowattHoursPerPanel * totalPanels).toFixed(2);
 

@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Getting Started MapBox Solar
+
+1. Clone the repo
+2. cd into the repo
+3. `yarn install`
+4. `yarn start`
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
